@@ -1,0 +1,49 @@
+@brand-loko : #5bc0de;
+
+a{
+	text-decoration: none;
+}
+.container-fluid{
+	padding: 0;
+}
+.warrper{
+	background: url('../img/Sunset_at_Tiergarten_UHD.png')center fixed;
+	background-size: cover;
+	color: #fff;
+}
+.reposition{
+	padding-top: 20%;
+}
+.ico-pan{
+	font-size:800%!important;
+}
+input{
+	margin-bottom: 10px!important;
+}
+section {
+  padding: 70px 0;
+	background-color: @brand-loko;
+}
+footer{
+	color: #fff;
+	background-color: #1a1a1a;
+	/*font-size: 2em;*/
+}
+footer p{
+	color: #838383;
+}
+
+@media screen and (min-width: 768px) {
+  .jumbotron {
+    padding-top: 248px;
+    padding-bottom: 248px;
+  }
+	footer{
+		padding-top: 10px;
+    padding-bottom: 10px;
+		margin-top: 50px;
+	}
+	footer p{
+		font-size: 0.8em!important;
+	}
+}
